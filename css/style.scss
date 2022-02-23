@@ -11,7 +11,7 @@
 }
 
 body{
-    background: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg"), var(--mainbg);
+    background: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg"), var(--mainbg);
     background-repeat: no-repeat;
     background-position:-80% 80%, 160% -60% ;
     
