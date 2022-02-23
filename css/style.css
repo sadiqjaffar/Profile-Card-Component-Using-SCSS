@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;700&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --mainbg:hsl(185, 75%, 39%);
+}
+
+body {
+  background: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg"), var(--mainbg);
+  background-repeat: no-repeat;
+  background-position: -80% 80%, 160% -60%;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: 10em;
+}
+
+main .card {
+  background-color: white;
+  border-radius: 20px;
+}
+
+main .card #top-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+}
+
+main .card #top-card img {
+  border-radius: 20px 20px 0 0;
+}
+
+main .card #dp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .card #dp img {
+  position: relative;
+  border: 5px solid white;
+  border-radius: 50%;
+  top: -50px;
+}
+
+main .card .name-card {
+  position: relative;
+  top: -25px;
+}
+
+main .card .name-card .name {
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #2d3248;
+}
+
+main .card .name-card .name span {
+  padding-left: 10px;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #969696;
+  font-weight: 400;
+}
+
+main .card .name-card h4 {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #969696;
+  font-weight: 400;
+}
+
+main .card hr {
+  position: relative;
+  top: -10px;
+  background-color: #969696;
+}
+
+main .card .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding-top: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  top: -10px;
+}
+
+main .card .flex .p1 {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #2d3248;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+main .card .flex .p2 {
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #969696;
+  font-weight: 300;
+  font-size: 10px;
+}
+
+.attribution {
+  position: relative;
+  top: 25em;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-position: 140% 80%, -35% -45%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
